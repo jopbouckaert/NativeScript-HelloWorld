@@ -1,5 +1,7 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
     <StackLayout>
         <Label text="Hello World from VIVES" textWrap="true" />
+        <Button text="About" tap="onAboutTap" />
+
     </StackLayout>
 </Page>
