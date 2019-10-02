@@ -3,35 +3,35 @@
         <Label class="title" text="My repos" textWrap="true" />
         <GridLayout rows="*,*,*" columns="*,*" class="content">
             <StackLayout row = "0" col="0">
-                <Label text="C# programming course" textWrap="true" />
+                <Label class="repoTitle" text="C# programming course" textWrap="true" />
                 <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
                 <StackLayout orientation="horizontal">
-                    <Label text="33 commits" textWrap="true" />
-                    <Label text="Last updated at 22/09/2019" textWrap="true" />
+                    <Label class="commitLabel" text="33 commits" textWrap="true" />
+                    <Label class="updateLabel" text="Last updated at 22/09/2019" textWrap="true" />
                 </StackLayout>
             </StackLayout>
             <StackLayout row = "0" col="1">
-                <Label text="C++ programming course" textWrap="true" />
+                <Label class="repoTitle" text="C++ programming course" textWrap="true" />
                 <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
                 <StackLayout orientation="horizontal">
-                    <Label text="69 commits" textWrap="true" />
-                    <Label text="Last updated at 21/09/2019" textWrap="true" />
+                    <Label class="commitLabel" text="69 commits" textWrap="true" />
+                    <Label class="updateLabel" text="Last updated at 21/09/2019" textWrap="true" />
                 </StackLayout>
             </StackLayout>
             <StackLayout row = "1" col="0">
-                <Label text="Java programming course" textWrap="true" />
+                <Label class="repoTitle" text="Java programming course" textWrap="true" />
                 <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
                 <StackLayout orientation="horizontal">
-                    <Label text="45 commits" textWrap="true" />
-                    <Label text="Last updated at 25/09/2019" textWrap="true" />
+                    <Label class="commitLabel" text="45 commits" textWrap="true" />
+                    <Label class="updateLabel" text="Last updated at 25/09/2019" textWrap="true" />
                 </StackLayout>
             </StackLayout>
             <StackLayout row = "1" col="1">
-                <Label text="Ruby programming course" textWrap="true" />
+                <Label class="repoTitle" text="Ruby programming course" textWrap="true" />
                 <Image src="https://via.placeholder.com/150x75?text=!!!!!!!Image" stretch="aspectFit" />
                 <StackLayout orientation="horizontal">
-                    <Label text="0 commits" textWrap="true" />
-                    <Label text="Last updated at 01/01/1970" textWrap="true" />
+                    <Label class="commitLabel" text="0 commits" textWrap="true" />
+                    <Label class="updateLabel" text="Last updated at 01/01/1970" textWrap="true" />
                 </StackLayout>
             </StackLayout>
             <StackLayout row = "2" col="0">

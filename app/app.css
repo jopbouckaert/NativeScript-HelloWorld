@@ -71,6 +71,38 @@ button {
   font-size: 20;
 }
 
+.commitLabel {
+  height: 50;
+  border-radius: 0 0 0 15;
+  text-align: center;
+  background-color: #376693;
+  color: #ffffff;
+  padding: 4;
+  font-size: 12;
+  margin-bottom: 10;
+}
+
+.updateLabel {
+  height: 50;
+  border-radius: 0 0 15 0;
+  text-align: center;
+  background-color: #376693;
+  color: #ffffff;
+  padding: 4;
+  font-size: 12;
+  margin-bottom: 10;
+}
+
+.repoTitle {
+  height: 50;
+  border-radius: 15 15 0 0;
+  text-align: center;
+  background-color: #376693;
+  color: #ffffff;
+  padding: 4;
+  font-size: 16;
+}
+
 #submit {
 }
 
