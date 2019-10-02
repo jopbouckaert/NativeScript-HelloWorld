@@ -1,0 +1,34 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <StackLayout>
+        <Label class="title" text="Profile" textWrap="true" />
+        <GridLayout class="profileGrid" rows="*,*,*,*,*" columns="*,*" class="content">
+            <StackLayout class="profileStack" row = "0" col="0">
+                <Label class="profileItem" text="Name:" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStackValue" row = "0" col="1">
+                <Label class="profileItem" text="Jop Bouckaert" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStack" row = "1" col="0">
+                <Label class="profileItem" text="Nickname:" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStackValue" row = "1" col="1">
+                <Label class="profileItem" text="jopbouckaert" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStack" row = "2" col="0">
+                <Label class="profileItem" text="Repos:" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStackValue" row = "2" col="1">
+                <Label class="profileItem" text="25" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStack" row = "3" col="0">
+                <Label class="profileItem" text="Followers" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStackValue" row = "3" col="1">
+                <Label class="profileItem" text="22m" textWrap="true" />
+            </StackLayout>
+            <StackLayout class="profileStackImage" row = "4" col="0" colSpan="2">
+                <Image src="https://i.ytimg.com/vi/gGruZGY4Gvk/maxresdefault.jpg" stretch="aspectFit" />
+            </StackLayout>
+        </GridLayout>
+    </StackLayout>
+</Page>

@@ -4,5 +4,6 @@
         <Button text="About" tap="onAboutTap" />
         <Button text="Contact us" tap="onContactTap" />
         <Button text="repos" tap="onReposTap" />
+        <Button text="profile" tap="onProfileTap" />
     </StackLayout>
 </Page>

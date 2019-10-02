@@ -1,11 +1,11 @@
 {
   "nativescript": {
     "id": "be.vives.mobile.hello_world",
-    "tns-android": {
-      "version": "6.1.0"
-    },
     "tns-ios": {
       "version": "6.1.0"
+    },
+    "tns-android": {
+      "version": "6.1.2"
     }
   },
   "description": "NativeScript Application",

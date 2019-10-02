@@ -18,49 +18,67 @@ components that have the btn class name.
 */
 
 Page {
-  background-color: #FDFFFF;
-
+  background-color: #d8dbe2;
 }
 
 .btn {
   font-size: 18;
 }
 
-Button {
-  background-color: #003554;
-  color: #FFFFFF;
+button {
+  background-color: #c63c41;
+  color: #ffffff;
   border-radius: 15;
   margin: 10;
 }
 
-.title{
-  background-color: #003554;
-  color: #FFFFFF;
-  font-size:24;
+.title {
+  background-color: #c63c41;
+  color: #ffffff;
+  font-size: 24;
   font-weight: bold;
   text-align: center;
   padding: 20;
   margin-bottom: 12;
-
 }
 
 .content {
   padding: 12;
 }
 
-#submit{
-
+.profileItem {
+  text-align: center;
+  color: #ffffff;
+  padding: 20;
+  font-size: 15;
 }
 
-StackLayout Label {
-
+.profileStack {
+  height: 60;
+  border-radius: 15 0 0 15;
+  text-align: center;
+  background-color: #376693;
+  color: #ffffff;
+  font-size: 20;
 }
 
-StackLayout > Label{
-
+.profileStackValue {
+  height: 60;
+  border-radius: 0 15 15 0;
+  text-align: center;
+  background-color: #376693;
+  color: #ffffff;
+  font-size: 20;
 }
 
-TextField[hint]{
-
+#submit {
 }
 
+StackLayout label {
+}
+
+StackLayout > label {
+}
+
+TextField[hint] {
+}
