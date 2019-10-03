@@ -6,25 +6,25 @@
                 <Label class="profileItem" text="Name:" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStackValue" row = "0" col="1">
-                <Label class="profileItem" text="Jop Bouckaert" textWrap="true" />
+                <Label class="profileItem" text="{{ name }}" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStack" row = "1" col="0">
                 <Label class="profileItem" text="Nickname:" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStackValue" row = "1" col="1">
-                <Label class="profileItem" text="jopbouckaert" textWrap="true" />
+                <Label class="profileItem" text="{{ nickname }}" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStack" row = "2" col="0">
                 <Label class="profileItem" text="Repos:" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStackValue" row = "2" col="1">
-                <Label class="profileItem" text="25" textWrap="true" />
+                <Label class="profileItem" text="{{ repositories }}" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStack" row = "3" col="0">
                 <Label class="profileItem" text="Followers" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStackValue" row = "3" col="1">
-                <Label class="profileItem" text="22m" textWrap="true" />
+                <Label class="profileItem" text="{{ followers }}" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStackImage" row = "4" col="0" colSpan="2">
                 <Image src="https://i.ytimg.com/vi/gGruZGY4Gvk/maxresdefault.jpg" stretch="aspectFit" />

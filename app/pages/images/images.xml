@@ -1,0 +1,33 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <ScrollView>
+        <StackLayout>
+            <Image src="res://spoderman" stretch="none" />
+
+            <Label text="144 versus 144px" textWrap="true" />
+
+            <Image src="https://via.placeholder.com/150" width="144"/>
+            <StackLayout orientation="horizontal">
+              <Image src="https://via.placeholder.com/150" width="144px"/>
+              <Image src="https://via.placeholder.com/150" width="144px"/>
+              <Image src="https://via.placeholder.com/150" width="144px"/>
+              <Image src="https://via.placeholder.com/150" width="144px"/>  
+            </StackLayout>
+
+            <Label text="Full screen (401 dip) versus 401px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="401"/>
+            <Image src="https://via.placeholder.com/150" width="401px"/>
+            
+            <Label text="144 divided by 4" textWrap="true" />
+            
+            <Image src="https://via.placeholder.com/150" width="108"/>
+            <StackLayout orientation="horizontal">
+              <Image src="https://via.placeholder.com/150" width="68px"/>
+              <Image src="https://via.placeholder.com/150" width="68px"/>
+              <Image src="https://via.placeholder.com/150" width="68px"/>
+              <Image src="https://via.placeholder.com/150" width="68px"/>  
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ScrollView>
+</Page>
