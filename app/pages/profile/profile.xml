@@ -27,7 +27,7 @@
                 <Label class="profileItem" text="{{ followers }}" textWrap="true" />
             </StackLayout>
             <StackLayout class="profileStackImage" row = "4" col="0" colSpan="2">
-                <Image src="https://i.ytimg.com/vi/gGruZGY4Gvk/maxresdefault.jpg" stretch="aspectFit" />
+                <Image src="{{ avatar }}" stretch="aspectFit" />
             </StackLayout>
         </GridLayout>
     </StackLayout>
